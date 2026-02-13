@@ -1,41 +1,47 @@
-AI Scouting Assistant for Small Football Clubs
-Phase-1: Intelligent Player Scouting + Phase-2: Team Tactics
+# AI Football Assistant  
+### Phase 1: Player Scouting | Phase 2: Team Tactics
 
-This project is an AI-based football analytics tool built for small football clubs.  
-It helps in identifying promising players and analyzing team performance using machine learning.
+This project is an AI-based football analytics system developed for PBL-2.  
+It is designed to help small football clubs identify promising players and analyze team performance using data-driven methods.
 
-Features
-- Smart Search Engine
-- Hybrid ML/DL Models
-- Feature Engineering 
-- Professional Tkinter GUI
-- 6000+ player dataset
+The system combines machine learning, basic deep learning, feature engineering, and a Tkinter-based GUI.
 
-Installation
-pip install pandas numpy scikit-learn tensorflow keras matplotlib
+---
 
-Quick Start
-1. Launch: main.py
-2. Phase-1: Search players
-3. Phase-2: Analyze team
+## Features
 
-Phase-1: Player Scouting
-- Natural language search
-- Feature engineering details
-- ML/DL models explanation
+### Phase 1 – Player Scouting
+- Intelligent player search using natural language queries
+- Custom football-specific feature engineering
+- Random Forest model
+- Neural Network model (TensorFlow/Keras)
+- Ensemble scoring approach
+- Squad builder for transferring selected players to Phase 2
 
-Phase-2: Team Tactics
-- Team strength formula
-- Formation recommendations
-- Weakness detection
+### Phase 2 – Team Analysis
+- Team strength calculation (Attack, Creativity, Defense, Discipline)
+- Weakness identification
+- Formation recommendation
+- Squad-based performance evaluation
 
-Technical Details
-- Data processing pipeline
-- ML pipeline
-- Dataset expansion
+---
 
-Project Structure
-ai_scouting_assistant/
-├── main.py
-├── players_data_light-2024_2025.csv
-└── README.md
+## Technologies Used
+
+- Python 3.10+
+- Pandas
+- NumPy
+- Scikit-Learn
+- TensorFlow / Keras
+- Tkinter
+- Matplotlib
+
+---
+
+## Installation
+
+Install required dependencies:
+
+```bash
+pip install -r requirements.txt
+
